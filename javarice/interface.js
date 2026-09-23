@@ -48,22 +48,7 @@ function redirect(url, newTab = true) {
     }
 }
 
-document.getElementById("meBtn").addEventListener("click", () => {
-    redirect("https://www.youtube.com/watch?v=ST5DWHnT_Po");
-});
-
-document.getElementById("gitBtn").addEventListener("click", () => {
-    redirect("https://github.com/Kritzkingvoid");
-});
-
-document.getElementById("kofiBtn").addEventListener("click", () => {
-    redirect("https://ko-fi.com/kritzkingvoid");
-});
-
 document.getElementById("soraBtn").addEventListener("click", () => {
           showResultText("Uhmm.. Wanna buy ice cream?");
 });
 
-document.getElementById("unitBtn").addEventListener("click", () => {
-          showResultText("In Progress ... Coming Soon! ~ Limbus Company Coding Department ");
-});
